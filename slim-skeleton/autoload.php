@@ -1,7 +1,7 @@
 <?php
 
 $composer = require __DIR__ .'/vendor/autoload.php';
-
+//var_dump($composer);
 $modules = path_modules('/src');
 foreach ($modules as &$module){
     $namespace = explode("/", $module);
